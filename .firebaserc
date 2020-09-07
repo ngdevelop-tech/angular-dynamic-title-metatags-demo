@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "game-of-thrones-5ca95": {
+      "hosting": {
+        "got-prerender-demo": [
+          "game-of-thrones-5ca95"
+        ]
+      }
+    }
+  }
+}

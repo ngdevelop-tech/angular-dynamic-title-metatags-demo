@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 
 const routes: Routes = [
@@ -13,7 +14,7 @@ const routes: Routes = [
           description: 'Home page of dynamic Title and Metatags Demo application.',
           'og:title': 'GOT Home Page',
           'og:description': 'List of all the characters from game of thrones',
-          'og:image': document.baseURI + 'assets/image/homepage.png'
+          'og:image': environment.appUrl + 'assets/image/homepage.png'
         }
       }
     }
@@ -27,7 +28,7 @@ const routes: Routes = [
           description: 'List of all the characters from game of thrones',
           'og:title': 'GOT Characters',
           'og:description': 'List of all the characters from game of thrones',
-          'og:image': document.baseURI + 'assets/image/characters.png'
+          'og:image': environment.appUrl + 'assets/image/characters.png'
         }
       }
     }
@@ -41,13 +42,13 @@ const routes: Routes = [
           description: 'Checkout the List of all game of thrones books',
           'og:title': 'GOT Books',
           'og:description': 'Checkout the List of all game of thrones books',
-          'og:image': document.baseURI + 'assets/image/books.png'
+          'og:image': environment.appUrl + 'assets/image/books.png'
         }
       }
     } 
   }];
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {useHash : true})],
+  imports: [RouterModule.forRoot(routes, { useHash: true, initialNavigation: 'enabled' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

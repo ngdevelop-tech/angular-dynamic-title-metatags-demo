@@ -12,10 +12,7 @@ export class SeoService {
     this.title.setTitle(title);
   }
 
-  updateMetaTags(metaTags: {[key: string]: string}){
-    for(let key of Object.keys(metaTags)){
-      console.log(key);
-      this.meta.updateTag({name: key, content: metaTags[key]});
-    }
+  updateMetaTags(metaTags: MetaDefinition[]){
+    metaTags.forEach(m=> this.meta.updateTag(m));
   }
 }

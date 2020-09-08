@@ -1,27 +1,24 @@
-# GotPrerenderDemo
+# Dynamically Add Title and Meta Tags on Route Change in Angular Application | Angular SEO
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+This is the demo application for demonstrating dynamically update web page title and meta tags on route change in Angular.
 
-## Development server
+We will also implement SSR rendering so that each route can be shared on social media (like Facebook, LinkedIn and Twitter) and Search Engines like google and bing can index it properly. 
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+----------------
+### 🚀[Checkout Live Application](http://angular-got-universal.herokuapp.com/home)
+### Blog : 📃[Dynamically Add Title and Meta Tags on Route Change in Angular | SEO](https://www.ngdevelop.tech/dynamically-add-title-and-meta-tags-on-route-change-in-angular/)
+----------------
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Dynamic Web Page Title and Meta Tags on Route Change
+- Open Graph Meta Tags Support for Facebook, LinkedIn and Twitter
+- Twitter Card MetaTags
+- Angular Server Side Rendering 
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+---------------
+## Is this useful to you ❓ Give us a Star ⭐
+---------------
+## Developed and Maintained By
+This project is developed by [@Ankit_NgDevelop](https://twitter.com/ankit_ngdevelop) for the 📄[Dynamically Add Title and Meta Tags in Angular](https://www.ngdevelop.tech/dynamically-add-title-and-meta-tags-on-route-change-in-angular/) blog on 🌐[NgDevelop](https://ngdevelop.tech).
